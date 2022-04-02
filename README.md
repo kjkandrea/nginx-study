@@ -1,6 +1,4 @@
-# nginx-study
-nginx 기초는 알아두자
-
+# setup
 ## docker image 생성
 
 practice-web-server 이미지 생성
@@ -26,7 +24,11 @@ docker run -p 8080:80 pws1
 open http://localhost:8080/index.html
 ```
 
-## nginx.conf
+# nginx.conf
+
+## syntax
+
+기본적인 어휘 구조를 알아보자
 
 ### directive
 
