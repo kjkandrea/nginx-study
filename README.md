@@ -25,3 +25,29 @@ docker run -p 8080:80 pws1
 ```bash
 open http://localhost:8080/index.html
 ```
+
+## nginx.conf
+
+### directive
+
+nginx 의 directive 는 다음과 같이 구성된다. 
+
+```
+<directive> <parameter1> <parameter2>;
+```
+
+### context
+
+nginx 의 context 는 다음과 같이 구성된다. 
+
+```
+context1 {
+
+}
+
+context2 {
+    context2a {
+    
+    }
+}
+```
